@@ -1,0 +1,20 @@
+{
+    "indexes": [
+      {
+        "collectionGroup": "ads",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "location", "order": "ASCENDING" },
+          { "fieldPath": "createdAt", "order": "DESCENDING" }
+        ]
+      },
+      {
+        "collectionGroup": "chats",
+        "queryScope": "COLLECTION",
+        "fields": [
+          { "fieldPath": "lastTimestamp", "order": "DESCENDING" }
+        ]
+      }
+    ],
+    "fieldOverrides": []
+  }
